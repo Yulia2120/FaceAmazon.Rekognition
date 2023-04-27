@@ -17,8 +17,8 @@ namespace FaceAmazon.Rekognition
             FileInfo fileInfo = new FileInfo(path);
             string photo = fileInfo.Name;
             string extension = fileInfo.Name.Remove(fileInfo.Name.IndexOf(fileInfo.Extension));
-            string accessKey = "AKIA6MRBY5XDXZYGV7MC";
-            string secretKey = " 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";
+            string accessKey = "***";
+            string secretKey = " ***";
             String bucket = "obushkobucket";
 
             IAmazonS3 AmazonS3 = new AmazonS3Client(
